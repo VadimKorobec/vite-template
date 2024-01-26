@@ -1,19 +1,18 @@
-@use "../utils/mixin";
-@use "../utils/veriables";
+@use '../utils/index' as f;
 
 .badge {
-  @include mixin.badge-base();
-  color:veriables.$badge-cl;
+  @include f.badge-base();
+  color: f.$badge-cl;
 }
 
 .badge-completed {
-  background-color: veriables.$completed;
+  background-color: f.$completed;
 }
 
 .badge-ended {
-  background-color: veriables.$ended;
+  background-color: f.$ended;
 }
 
 .badge-active {
-  background-color: veriables.$active;
+  background-color: f.$active;
 }

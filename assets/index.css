@@ -163,7 +163,15 @@ meter {
 }
 
 .badge {
-  color: #fff;
+  display: inline-block;
+  min-width: 96px;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.07px;
+  border-radius: 20px;
+  color: #ffffff;
 }
 
 .badge-completed {

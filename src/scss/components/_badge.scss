@@ -2,18 +2,18 @@
 @use "../utils/veriables";
 
 .badge {
-  @include badge-base();
-  color:$badge-cl;
+  @include mixin.badge-base();
+  color:veriables.$badge-cl;
 }
 
 .badge-completed {
-  background-color: $completed;
+  background-color: veriables.$completed;
 }
 
 .badge-ended {
-  background-color: $ended;
+  background-color: veriables.$ended;
 }
 
 .badge-active {
-  background-color: $active;
+  background-color: veriables.$active;
 }

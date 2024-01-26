@@ -1,15 +1,19 @@
+@use "../utils/mixin";
+@use "../utils/veriables";
+
 .badge {
-  color: #fff;
+  @include badge-base();
+  color:$badge-cl;
 }
 
 .badge-completed {
-  background-color: #a461d8;
+  background-color: $completed;
 }
 
 .badge-ended {
-  background-color: #fc5a5a;
+  background-color: $ended;
 }
 
 .badge-active {
-  background-color: #82c43c;
+  background-color: $active;
 }
